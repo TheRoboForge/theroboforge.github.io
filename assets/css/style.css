@@ -427,7 +427,7 @@ body {
 .portfolio-list > li:nth-child(even) .card-content { margin-inline-start: auto; }
 
 .portfolio-card .card-subtitle {
-  color: var(--black);
+  color: var(--white);
   margin-block-end: 5px;
 }
 
