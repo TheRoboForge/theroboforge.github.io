@@ -411,10 +411,23 @@ body {
   transition: var(--transition-2);
 }
 
+.portfolio-card-team {
+  background-color: var(--independence);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 120px 20px;
+  border-radius: var(--radius-20);
+  font-family: var(--ff-barlow);
+  color: var(--white);
+  font-weight: var(--fw-600);
+  transition: var(--transition-2);
+}
+
 .portfolio-list > li:nth-child(even) .card-content { margin-inline-start: auto; }
 
 .portfolio-card .card-subtitle {
-  color: var(--orange-soda);
+  color: var(--black);
   margin-block-end: 5px;
 }
 
